@@ -40,3 +40,55 @@ header{
 .banner-img{
     margin-top: 3em;
 }
+
+/*-----------------------------*/
+
+.featured-container{
+    text-align: center;
+    margin: 12em 0;
+}
+.featured-item{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 3em;
+}
+
+.item-1{
+    background: rgb(235, 217, 224);
+    width: 30em;
+    height: 27em;
+    padding-top: 9.7em !important;
+}
+.item-2{
+    background: rgb(218, 238, 237);
+    width: 30em;
+}
+.item-3{
+    background: rgb(224, 233, 215);
+    width: 30em;
+}
+.item-1, .item-2, .item-3{
+    padding: 7em 1.2em 0;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+}
+.item-1 img{
+    margin-bottom: -418px;
+}
+.item-3 img{
+    margin-bottom: -460px;
+}
+.item-name{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3em;
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.expertness{
+    display: flex;
+}
+
